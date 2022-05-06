@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d1a2f43a-1a20-4dd5-ba41-3a619bdf13fa",
+		"name": "springMail",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SendEmail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sender\": \"bestdeveloper@denizhan.com\",\n    \"receiver\": \"denozhan@hotmail.com\",\n    \"subject\": \"Test E-posta\",\n    \"text\": \"Bu bir deneme mailidir. Bu mail bir back-end projesinden atılmıştır.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/email/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"email",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
