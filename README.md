@@ -1,7 +1,7 @@
 # Spring Mail App
 ## _Made with Spring Framework by Denizhan Aras_
 
-With this form application you can send Emails to a valid email address you want. This app requires a smtp server to run. Check application details for your configurations.
+With this form application you can send Emails to a valid email address you want. This app requires a smtp server to run. Check application.properties for your configurations.
 
 - Made with Spring Boot & ReactJs & MUI Components.
 - Back-end serves at `https://localhost:8080`
